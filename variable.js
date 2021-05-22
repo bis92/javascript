@@ -24,7 +24,13 @@ console.log(globalName);
 }
 console.log(age);
 
-// 3. Contants
+// 3. Contant, r(read-only)
+// use const whenever possible.
+// only use let if variable needs to change.
+
+// Note!
+// Immutable data types: primitive types, frozen objects (i.e. object.freeze())
+// Mutable data types: all objects by default are mutable in JS
 // favor immutable data type always for a few reasons;
 // - security
 // - thread safety
